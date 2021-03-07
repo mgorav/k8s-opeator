@@ -1,0 +1,12 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://127.0.0.1:8080
+functions:
+  openfaas-webhook:
+    lang: python3-flask
+    handler: ./openfaas-webhook
+    image: mgorav/openfaas-webhook:latest
+    environment:
+      write_debug: true
+
