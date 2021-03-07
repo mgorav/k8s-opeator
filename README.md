@@ -1,5 +1,13 @@
 # Bring your function as k8s operator
 
+I always felt, writing infrastructure/platform is never ending & complex tasks which goes on and on, just like - "calling
+plumber in your house :-)"
+
+On the major concerns in creating infrastructure as code and how it get tangled with 
+internal of the platform like k8s, aws. There has to be nice separation/abstraction. Kubernetes operator provides nice 
+decoupling from k8s and helps in creating your business specific k8s artifacts. I will demonstration building operator 
+by writing plain old simple logic in programing language of your choice. In this blog, I will use python.
+
 Creating k8s operator can be quiet challenging. MetaController provides nice abstraction and framework for developing 
 k8s operator. This helps engineers to concentrate on writing business logic for k8s operator. I this blog, I will 
 demonstrate creating webhook using OpenFaas, hence removes to complication around setting up code on k8s to build the 
