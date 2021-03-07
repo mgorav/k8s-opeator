@@ -15,7 +15,7 @@ operator. This leads to development methodology called "Function As Service". Th
 
 **This take to simplicity which I terms - "just bring your function to create a k8s operator"** 
 
-This open us to create cloud agnostic infrastructure (operator) and marry with engineering need, for example, 
+This open's opportunities to create cloud agnostic infrastructure (operator) and marry with engineering need, for example, 
 - machine learning model training operator (sagemeker, kubeflow etc)
 - machine learning model serving operator (sagemeker, kubeflow etc)
 - maching learning model hyper parameter tuning operator (sagemeker, kubeflow etc)
